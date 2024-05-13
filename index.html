@@ -13,18 +13,14 @@
 		/>
 	</head>
 	<body>
-		<header class="container header-container">
-			<div class="left-header">
-				<h1>Hello! I am <br /><span>Enrique J. Spinelli</span></h1>
-				<h2>Full Stack Developer</h2>
-				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, rem
-					tempora! Est dolores quae rerum, fugiat reprehenderit assumenda
-					architecto dolorum nesciunt aspernatur officia recusandae ducimus ut
-					inventore? Impedit, dicta doloribus!
-				</p>
-			</div>
+		<header class="container">
 			<nav class="navbar">
+				<div>
+					<img
+						src="./assets/imgs/html-logo.png"
+						alt="logo"
+					/>
+				</div>
 				<div class="menu-title"><h2>Menu</h2></div>
 				<div class="links">
 					<a href="about">About Me</a>
@@ -33,29 +29,45 @@
 					<a href="contact">Contact</a>
 				</div>
 			</nav>
-			<div class="right-header">
-				<div class="my-picture"></div>
-
-				<div class="media-container">
-					<a href="#"><i class="fa-brands fa-github"></i></a>
-					<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-				</div>
-				<div class="left-header-buttons">
-					<button
-						type="button"
-						class="main-button"
-					>
-						Send Whatsapp</button
-					><button
-						type="button"
-						class="main-button"
-					>
-						Download CV
-					</button>
-				</div>
-			</div>
 		</header>
-		<main></main>
+		<main>
+			<section class="home container">
+				<div class="home-content">
+					<div class="left-home flex-center section-padding">
+						<h1>Hello! I am <br /><span>Enrique J. Spinelli</span></h1>
+						<h2>Full Stack Developer</h2>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+							rem tempora! Est dolores quae rerum, fugiat reprehenderit
+							assumenda architecto dolorum nesciunt aspernatur officia
+							recusandae ducimus ut inventore? Impedit, dicta doloribus!
+						</p>
+					</div>
+					<div class="right-home flex-center section-padding">
+						<div class="flex-center"><div class="my-picture"></div></div>
+						<div class="media flex-center">
+							<div class="media-container flex-center">
+								<a href="#"><i class="fa-brands fa-github"></i></a>
+								<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+							</div>
+							<div class="right-home-buttons flex-center">
+								<button
+									type="button"
+									class="main-button"
+								>
+									Send Whatsapp</button
+								><button
+									type="button"
+									class="main-button"
+								>
+									Download CV
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 		<footer></footer>
 		<script
 			src="https://kit.fontawesome.com/e3fdf6ef30.js"

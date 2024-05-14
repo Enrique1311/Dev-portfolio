@@ -168,7 +168,7 @@ header:hover .right-header {
 
 .home-content {
 	box-shadow: 0px 10px 20px -10px black;
-	background-color: rgb(0, 0, 0, 0.5);
+	background-color: rgba(36, 37, 37, 0.8);
 	flex-direction: column;
 	color: white;
 	gap: 2rem;
@@ -177,7 +177,7 @@ header:hover .right-header {
 
 .left-home,
 .right-home {
-	gap: 1rem;
+	gap: 2rem;
 }
 
 .left-home span {
@@ -202,14 +202,13 @@ header:hover .right-header {
 }
 
 .my-picture {
-	width: 220px;
-	height: 220px;
-	background-color: aliceblue;
+	width: 50lvw;
+	height: 50lvw;
 	border-radius: 50%;
 	background-image: url(./assets/imgs/my-picture.jpg);
 	background-position: center;
-	background-size: 240px;
-	object-fit: cover;
+	background-size: 100%;
+	object-fit: contain;
 }
 
 .media a i {
@@ -217,13 +216,14 @@ header:hover .right-header {
 	background-color: white;
 	padding: 0.5rem;
 	border-radius: 50%;
+	font-size: 1.5rem;
 }
 
 .media-buttons {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 1rem;
+	gap: 2rem;
 }
 
 /* Media Queries ************************************************ */
@@ -283,9 +283,13 @@ header:hover .right-header {
 	}
 
 	.my-picture {
+		width: 40lvw;
+		height: 40lvw;
+	}
+	/* .my-picture {
 		width: 240px;
 		height: 240px;
-	}
+	} */
 
 	.left-home h1 {
 		font-size: 6lvw;
@@ -315,8 +319,8 @@ header:hover .right-header {
 	}
 
 	.my-picture {
-		width: 260px;
-		height: 260px;
+		width: 30lvw;
+		height: 30lvw;
 	}
 }
 
@@ -351,20 +355,21 @@ header:hover .right-header {
 		gap: 5rem;
 	}
 
-	.left-home {
-		gap: 2rem;
-	}
-
 	.left-home h1 {
-		font-size: 4lvw;
+		font-size: 4.5lvw;
 	}
 
 	.left-home h2 {
-		font-size: 2.5lvw;
+		font-size: 2.8lvw;
 	}
 
 	.left-home p {
-		font-size: 1.5lvw;
+		font-size: 1.8lvw;
+	}
+
+	.my-picture {
+		width: 25lvw;
+		height: 25lvw;
 	}
 }
 
@@ -381,5 +386,22 @@ header:hover .right-header {
 
 	.home-content {
 		gap: 6rem;
+	}
+
+	.left-home h1 {
+		font-size: 4lvw;
+	}
+
+	.left-home h2 {
+		font-size: 2.3lvw;
+	}
+
+	.left-home p {
+		font-size: 1.3lvw;
+	}
+
+	.my-picture {
+		width: 18lvw;
+		height: 18lvw;
 	}
 }
